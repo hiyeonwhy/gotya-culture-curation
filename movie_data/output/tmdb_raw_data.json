@@ -1,0 +1,454 @@
+[
+    {
+        "adult": false,
+        "backdrop_path": "/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
+        "genre_ids": [
+            878,
+            28,
+            12
+        ],
+        "id": 24428,
+        "title": "어벤져스",
+        "original_language": "en",
+        "original_title": "The Avengers",
+        "overview": "에너지원 큐브를 이용한 적의 등장으로 인류가 위험에 처하자 국제평화유지기구인 쉴드의 국장 닉 퓨리는 어벤져스 작전을 위해 전 세계에 흩어져 있던 슈퍼히어로들을 찾아나선다. 아이언맨부터 토르, 헐크, 캡틴 아메리카는 물론, 쉴드의 요원인 블랙 위도우, 호크 아이까지, 최고의 슈퍼히어로들이 어벤져스의 멤버로 모이게 되지만, 각기 개성이 강한 이들의 만남은 예상치 못한 방향으로 흘러가는데...",
+        "popularity": 43.6909,
+        "poster_path": "/krgjV3rJtBcEpQehODKXNCt6uFL.jpg",
+        "release_date": "2012-04-25",
+        "softcore": false,
+        "video": false,
+        "vote_average": 8.046,
+        "vote_count": 38424,
+        "genre_names": [
+            "SF",
+            "액션",
+            "모험"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+        "genre_ids": [
+            12,
+            878,
+            28
+        ],
+        "id": 299534,
+        "title": "어벤져스: 엔드게임",
+        "original_language": "en",
+        "original_title": "Avengers: Endgame",
+        "overview": "어벤져스의 패배 이후 지구는 초토화됐고 남은 절반의 사람들은 정신적 고통을 호소하며 하루하루를 근근이 버텨나간다. 와칸다에서 싸우다 생존한 히어로들과 우주의 타이탄 행성에서 싸우다 생존한 히어로들이 뿔뿔이 흩어졌는데, 아이언맨과 네뷸라는 우주를 떠돌고 있고 지구에 남아 있는 어벤져스 멤버들은 닉 퓨리가 마지막에 신호를 보내다 만 송신기만 들여다보며 혹시 모를 우주의 응답을 기다리는 중이다. 애초 히어로의 삶을 잠시 내려놓고 가족과 시간을 보내던 호크아이 역시 헤아릴 수 없는 마음의 상처를 입은 채 사라지고 마는데...",
+        "popularity": 34.2885,
+        "poster_path": "/z7ilT5rNN9kDo8JZmgyhM6ej2xv.jpg",
+        "release_date": "2019-04-24",
+        "softcore": false,
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 27876,
+        "genre_names": [
+            "모험",
+            "SF",
+            "액션"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
+        "genre_ids": [
+            12,
+            28,
+            878
+        ],
+        "id": 299536,
+        "title": "어벤져스: 인피니티 워",
+        "original_language": "en",
+        "original_title": "Avengers: Infinity War",
+        "overview": "타노스는 6개의 인피니티 스톤을 획득해 신으로 군림하려 한다. 그것은 곧 인류의 절반을 학살해 우주의 균형을 맞추겠다는 뜻. 타노스는 닥터 스트레인지가 소유한 타임 스톤, 비전의 이마에 박혀 있는 마인드 스톤을 차지하기 위해 지구를 침략한다. 아이언맨과 스파이더맨은 가디언즈 오브 갤럭시의 멤버들과 타노스를 상대한다. 지구에선 캡틴 아메리카, 완다, 블랙 위도우, 블랙 팬서 등이 비전을 지키기 위해 뭉친다.",
+        "popularity": 53.1487,
+        "poster_path": "/kmP6viwzcEkZeoi1LaVcQemcvZh.jpg",
+        "release_date": "2018-04-25",
+        "softcore": false,
+        "video": false,
+        "vote_average": 8.237,
+        "vote_count": 32134,
+        "genre_names": [
+            "모험",
+            "액션",
+            "SF"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/4OZznMYFmQPP4orKgbLaWRyYmBb.jpg",
+        "genre_ids": [
+            878,
+            28,
+            12
+        ],
+        "id": 1003596,
+        "title": "어벤져스: 둠스데이",
+        "original_language": "en",
+        "original_title": "Avengers: Doomsday",
+        "overview": "",
+        "popularity": 16.072,
+        "poster_path": "/qbguX4ENXLoQ0K5cSYLhEItwHib.jpg",
+        "release_date": "2026-12-16",
+        "softcore": false,
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "genre_names": [
+            "SF",
+            "액션",
+            "모험"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/kIBK5SKwgqIIuRKhhWrJn3XkbPq.jpg",
+        "genre_ids": [
+            28,
+            12,
+            878
+        ],
+        "id": 99861,
+        "title": "어벤져스: 에이지 오브 울트론",
+        "original_language": "en",
+        "original_title": "Avengers: Age of Ultron",
+        "overview": "토니 스타크는 뉴욕전쟁 때와 같은 사태가 벌어지지 않도록 한때 가동하려다 중단된 휴면 상태의 평화 유지 프로그램을 작동 시키려 한다. 배너 박사와 함께 지구를 지킬 최강의 인공지능 울트론을 탄생시키게 되지만, 울트론은 예상과 다르게 지배를 벗어나 폭주하기 시작하고 어벤져스는 지구의 운명이 걸린 거대한 시험대에 오르게 된다. 울트론이 자신을 복제해 위협을 가하자 이를 저지하기 위해 아이언맨, 캡틴 아메리카, 토르, 헐크, 블랙위도우, 호크아이 등으로 구성된 어벤져스와 새로 합류하게 되는 퀵 실버, 스칼렛 위치 남매와 불안한 동맹을 맺는다.",
+        "popularity": 24.8083,
+        "poster_path": "/y8pY5MIzpPAnF5vYUNm1tw1AzL3.jpg",
+        "release_date": "2015-04-22",
+        "softcore": false,
+        "video": false,
+        "vote_average": 7.273,
+        "vote_count": 24502,
+        "genre_names": [
+            "액션",
+            "모험",
+            "SF"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/rytc6Lf4447C0CDncwFa4gxe0vY.jpg",
+        "genre_ids": [
+            878,
+            28,
+            12
+        ],
+        "id": 1003598,
+        "title": "어벤져스: 시크릿 워즈",
+        "original_language": "en",
+        "original_title": "Avengers: Secret Wars",
+        "overview": "",
+        "popularity": 5.9754,
+        "poster_path": "/f0YBuh4hyiAheXhh4JnJWoKi9g5.jpg",
+        "release_date": "2027-12-16",
+        "softcore": false,
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "genre_names": [
+            "SF",
+            "액션",
+            "모험"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/vqQhjCeXbGDz8IeB27IPk0alfKA.jpg",
+        "genre_ids": [
+            16,
+            878,
+            28
+        ],
+        "id": 257346,
+        "title": "어벤져스 컨피덴셜: 블랙 위도우 앤 퍼니셔",
+        "original_language": "ja",
+        "original_title": "アベンジャーズ コンフィデンシャル：ブラック・ウィドウ ＆ パニッシャー",
+        "overview": "지구의 안보가 위협당하는 위기의 상황에서 슈퍼히어로들을 불러모아 세상을 구하는, 일명 [어벤져스] 작전.  지구의 평화를 위협하는 적의 등장으로 인류가 위험에 처하자 국제평화유지기구인 쉴드 (S.H.I.E.L.D)의 국장 닉 퓨이는 [어벤져스] 작전을 위해 전 세계에 흩어져 있던 슈퍼히어로들을 찾아나선다. 아이언맨부터 토르, 헐크, 캡틴 아메리카는 물론, 쉴드의 요원인 블랙 위도우, 호크 아이까지, 최고의 슈퍼히어로들이 [어벤져스]의 멤버로 모이게 되지만, 각기 개성이 강한 이들의 만남은 예상치 못한 방향으로 흘러가는데…",
+        "popularity": 2.4643,
+        "poster_path": "/bsXC1PaRg8eEvVXCTVtNwLLvcyl.jpg",
+        "release_date": "2014-04-19",
+        "softcore": false,
+        "video": false,
+        "vote_average": 6.375,
+        "vote_count": 295,
+        "genre_names": [
+            "애니메이션",
+            "SF",
+            "액션"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/xv77AFzMUiTuUsC5qn31jBB21An.jpg",
+        "genre_ids": [
+            12,
+            16,
+            28,
+            878
+        ],
+        "id": 14611,
+        "title": "얼티밋 어벤져스 2",
+        "original_language": "en",
+        "original_title": "Ultimate Avengers 2",
+        "overview": "신비한 와칸다는 세계 대부분이 알지 못하는 아프리카의 가장 어두운 심장부에 있습니다. 폐쇄된 국경 뒤에 숨겨진 고립된 땅, 젊은 왕 블랙 팬서에 의해 강력하게 보호됩니다. 하지만 잔인한 외계 침략자들이 공격할 때, 그 위협은 흑표범에게 그의 백성들의 신성한 법령을 거스르고 외부인들에게 도움을 요청하는 것 외에는 선택의 여지가 없게 합니다.",
+        "popularity": 1.22,
+        "poster_path": "/sMFyYZR9krqcQC99G6jnb10Zv4P.jpg",
+        "release_date": "2006-08-08",
+        "softcore": false,
+        "video": false,
+        "vote_average": 6.787,
+        "vote_count": 322,
+        "genre_names": [
+            "모험",
+            "애니메이션",
+            "액션",
+            "SF"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/r5uAQQahZzcTYyPdlomDggyxHkV.jpg",
+        "genre_ids": [
+            35,
+            14,
+            28
+        ],
+        "id": 538153,
+        "title": "어벤져스 오브 저스티스",
+        "original_language": "en",
+        "original_title": "Avengers of Justice: Farce Wars",
+        "overview": "은하계 최강의 빌런 조크스터는 태양을 없애 지구에 새로운 빙하기를 불러일으키고자 한다. 슈퍼히어로 슈퍼배트는 히어로 동료들과 함께 조크스터에 맞서 지구를 지켜내야만 한다. 이제 전 인류의 운명이 걸린 최후의 대결이 시작된다.",
+        "popularity": 1.2232,
+        "poster_path": "/yymsCwKPbJIF1xcl2ih8fl7OxAa.jpg",
+        "release_date": "2018-07-20",
+        "softcore": false,
+        "video": false,
+        "vote_average": 4.79,
+        "vote_count": 31,
+        "genre_names": [
+            "코미디",
+            "판타지",
+            "액션"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/Al127H6f1RXpESdg0MGNL2g8mzO.jpg",
+        "genre_ids": [
+            16,
+            35,
+            878
+        ],
+        "id": 1359227,
+        "title": "레고 마블 어벤져스: 미션 데몰리션",
+        "original_language": "en",
+        "original_title": "LEGO Marvel Avengers: Mission Demolition",
+        "overview": "완전히 새로운 애니메이션 스페셜 ‘레고 마블: 미션 데몰리션’은 독창적인 매력이 확실한 유명 시리즈의 10번째 작품이다. 마블과 레고 그룹이 선보이는 이 최신 스페셜의 주인공은 히어로가 되고자 하는 젊은 슈퍼히어로 팬으로, 어벤져스의 세상을 파괴할 기회를 노리고 있는 강력한 새 악당을 우연한 계기로 해방시키고 만다.",
+        "popularity": 1.998,
+        "poster_path": "/2gLpCJNao2AgHhCuuhwwlvL5hb1.jpg",
+        "release_date": "2024-10-17",
+        "softcore": false,
+        "video": false,
+        "vote_average": 6.461,
+        "vote_count": 128,
+        "genre_names": [
+            "애니메이션",
+            "코미디",
+            "SF"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/6V6rhHkqYvJGlxIQ9mvZuIoY6c9.jpg",
+        "genre_ids": [
+            16,
+            10751,
+            28,
+            12,
+            878
+        ],
+        "id": 14613,
+        "title": "넥스트 어벤져스: 히어로즈 오브 투모로우",
+        "original_language": "en",
+        "original_title": "Next Avengers: Heroes of Tomorrow",
+        "overview": "울트론의 세력 확장을 피해 숨어 지내던 어벤져의 아이들은 우연히 자신들의 운명을 깨닫고 울트론에게 맞서 싸우기로 결심한다.",
+        "popularity": 1.2409,
+        "poster_path": "/1y4J9HZJoTIMdt77wCq80uXaQJ.jpg",
+        "release_date": "2008-09-02",
+        "softcore": false,
+        "video": false,
+        "vote_average": 7.0,
+        "vote_count": 306,
+        "genre_names": [
+            "애니메이션",
+            "가족",
+            "액션",
+            "모험",
+            "SF"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/oFSQEG1lJTTISj3QKB7cJ9ANkFw.jpg",
+        "genre_ids": [
+            16,
+            28,
+            10751
+        ],
+        "id": 1154598,
+        "title": "레고 마블 어벤져스: 코드 레드",
+        "original_language": "en",
+        "original_title": "LEGO Marvel Avengers: Code Red",
+        "overview": "뉴욕을 지키기 위해 모인 어벤져스. 그러나 블랙 위도우는 아버지 레드 가디언이 자신을 따라다니며 어린애 취급하자 화를 내고 만다. 그 후 레드 가디언이 갑자기 사라지고, 어벤져스는 '콜렉터'가 이름에 '레드'라는 단어가 들어간 영웅과 악당을 납치하고 다닌다는 사실을 알게 된다. 어벤져스는 힘을 합쳐 콜렉터의 은신처를 찾고 그의 수집품이 되어버린 영웅과 악당을 모두 구할 수 있을까?",
+        "popularity": 1.9031,
+        "poster_path": "/cCIKixVHGIynoZR2xMg9uygey5f.jpg",
+        "release_date": "2023-10-26",
+        "softcore": false,
+        "video": false,
+        "vote_average": 6.525,
+        "vote_count": 157,
+        "genre_names": [
+            "애니메이션",
+            "액션",
+            "가족"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/sORO7a1cSghfWE5GD4cSJ0qTN8O.jpg",
+        "genre_ids": [
+            28,
+            12,
+            14
+        ],
+        "id": 521720,
+        "title": "어벤져스 그림: 시간 전쟁",
+        "original_language": "en",
+        "original_title": "Avengers Grimm: Time Wars",
+        "overview": "시공간의 균열로 인해 마법 세계와의 통로가 열렸다! 아틀란티스의 여왕 막다는 마법의 힘으로 온 세상을 손에 넣고자 한다. 이를 막기 위해 나타난 어벤져스들은 막다의 계략으로 차원의 틈에 휘말려 과거에 갇히고 만다. 여왕의 손에서 미래와 세상을 구하기 위한 최후의 전쟁이 시작된다!",
+        "popularity": 0.7545,
+        "poster_path": "/4ARjDBmYpOocL8kVTyWWSSzx5Df.jpg",
+        "release_date": "2018-05-01",
+        "softcore": false,
+        "video": false,
+        "vote_average": 5.125,
+        "vote_count": 68,
+        "genre_names": [
+            "액션",
+            "모험",
+            "판타지"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/5MBqVVijMPVfimKacXRkCaX90w.jpg",
+        "genre_ids": [
+            12,
+            10751,
+            16
+        ],
+        "id": 1564058,
+        "title": "스파이디, 그리고 아이언맨: 어벤져스 출동!",
+        "original_language": "en",
+        "original_title": "Spidey and Iron Man: Avengers Team Up!",
+        "overview": "스파이디, 아이언맨, 어벤져스가 힘을 모은다.",
+        "popularity": 0.3784,
+        "poster_path": "/rhyKyeO9oedqXH6JRkCTu0W0gg0.jpg",
+        "release_date": "2025-10-16",
+        "softcore": false,
+        "video": false,
+        "vote_average": 3.8,
+        "vote_count": 4,
+        "genre_names": [
+            "모험",
+            "가족",
+            "애니메이션"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/8q7wYWpD7WKl1GRBwe3svNjfxFk.jpg",
+        "genre_ids": [
+            10751,
+            16,
+            28
+        ],
+        "id": 899249,
+        "title": "레고 마블 어벤져스: 훈련생 로키, 뒤틀린 시간",
+        "original_language": "en",
+        "original_title": "LEGO Marvel Avengers: Loki in Training",
+        "overview": "",
+        "popularity": 0.5119,
+        "poster_path": "/eyBifMbovoQbyuNXHOFYo7tsInp.jpg",
+        "release_date": "2021-11-01",
+        "softcore": false,
+        "video": false,
+        "vote_average": 7.1,
+        "vote_count": 20,
+        "genre_names": [
+            "가족",
+            "애니메이션",
+            "액션"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/rthMuZfFv4fqEU4JVbgSW9wQ8rs.jpg",
+        "genre_ids": [
+            28,
+            878,
+            12
+        ],
+        "id": 986056,
+        "title": "썬더볼츠*",
+        "original_language": "en",
+        "original_title": "Thunderbolts*",
+        "overview": "어벤져스가 사라진 후, 세계 최대의 위협과 마주한 세상을 구하기 위해 전직 스파이, 암살자, 살인 청부 업자 등 마블의 별난 놈들이 펼치는 예측불허 팀플레이를 담은 액션 블록버스터",
+        "popularity": 14.5798,
+        "poster_path": "/iTX4O9gb8Jn0F5N5WgYnbIopdnP.jpg",
+        "release_date": "2025-04-30",
+        "softcore": false,
+        "video": false,
+        "vote_average": 7.289,
+        "vote_count": 3584,
+        "genre_names": [
+            "액션",
+            "SF",
+            "모험"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/lJRGgbi4Slsz171vcJ0Ctgiea6v.jpg",
+        "genre_ids": [
+            28,
+            16,
+            10751,
+            12,
+            878
+        ],
+        "id": 14609,
+        "title": "얼티메이트 어벤저스",
+        "original_language": "en",
+        "original_title": "Ultimate Avengers: The Movie",
+        "overview": "수퍼 군인 혈청으로 탄생한 캡틴 아메리카는 2차 세계대전이 한창이던 1945년, 나치와 전투를 벌이던 중 북극의 빙하에 갇혀 냉동된다. 21세기가 되어 그의 혈액으로부터 수퍼 군인 혈청을 추출하려는 미군에 의해 다시 깨어난 그는 또 다시 거대한 악의 세력에 위협받는 세계를 구하기 위해 나서야할 상황을 맞이하는데...",
+        "popularity": 2.185,
+        "poster_path": "/iMCkGHVrYRdqKROPRPmVaJVSlg3.jpg",
+        "release_date": "2006-02-21",
+        "softcore": false,
+        "video": false,
+        "vote_average": 6.854,
+        "vote_count": 398,
+        "genre_names": [
+            "액션",
+            "애니메이션",
+            "가족",
+            "모험",
+            "SF"
+        ]
+    }
+]
