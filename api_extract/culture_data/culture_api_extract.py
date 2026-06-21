@@ -40,7 +40,36 @@ NUM_OF_ROWS = "20"
 
 
 # ======================================================
-# 4. XML 파싱 보조 함수
+# 4. 최종 JSON 컬럼
+# ======================================================
+
+FINAL_FIELDS = [
+    "seq",
+    "serviceName",
+    "title",
+    "startDate",
+    "endDate",
+    "place",
+    "realmName",
+    "area",
+    "sigungu",
+    "price",
+    "contents1",
+    "url",
+    "phone",
+    "thumbnail",
+    "imgUrl",
+    "gpsX",
+    "gpsY",
+    "placeUrl",
+    "placeAddr",
+    "placeSeq",
+    "detailStatus",
+]
+
+
+# ======================================================
+# 5. XML 파싱 보조 함수
 # ======================================================
 
 def parse_xml_items(xml_text):
@@ -152,7 +181,7 @@ def request_api(endpoint, params):
 
 
 # ======================================================
-# 5. 문화캘린더정보 목록조회 API
+# 6. 문화캘린더정보 목록조회 API
 # /cultureinfo/livelihood2
 # ======================================================
 
@@ -168,7 +197,7 @@ def get_livelihood_list():
 
 
 # ======================================================
-# 6. 기간별 문화정보목록조회 API
+# 7. 기간별 문화정보목록조회 API
 # /cultureinfo/period2
 # ======================================================
 
@@ -193,7 +222,7 @@ def get_period_list():
 
 
 # ======================================================
-# 7. 지역별 문화정보목록조회 API
+# 8. 지역별 문화정보목록조회 API
 # /cultureinfo/area2
 # ======================================================
 
@@ -220,7 +249,7 @@ def get_area_list():
 
 
 # ======================================================
-# 8. 분야별 문화정보목록조회 API
+# 9. 분야별 문화정보목록조회 API
 # /cultureinfo/realm2
 #
 # realmCode 분류코드
@@ -261,9 +290,8 @@ def get_realm_list():
 
 
 # ======================================================
-# 9. 문화정보 상세정보조회 API
+# 10. 문화정보 상세정보조회 API
 # /cultureinfo/detail2?seq=...
-# 상세조회는 목록 API에서 seq를 먼저 가져와야 함
 # ======================================================
 
 def get_detail(seq):
@@ -272,32 +300,138 @@ def get_detail(seq):
         "seq": seq
     }
 
-    return request_api("detail2", params)
+    detail_items = request_api("detail2", params)
+
+    # 상세조회 성공 여부 표시
+    if detail_items:
+        for item in detail_items:
+            item["detailStatus"] = "success"
+
+    return detail_items
 
 
 def get_detail_list(seq_list):
+    """
+    중복 제거된 전체 seq에 대해 상세정보 조회
+    """
     detail_results = []
 
-    for seq in seq_list[:20]:
+    for seq in seq_list:
         print(f"\n상세정보 조회 중 seq = {seq}")
 
         detail_items = get_detail(seq)
 
         if detail_items:
             detail_results.extend(detail_items)
+        else:
+            detail_results.append({
+                "seq": seq,
+                "detailStatus": "failed"
+            })
 
     return detail_results
 
 
 # ======================================================
-# 10. JSON 저장 함수
+# 11. 중복 제거 및 병합 함수
+# ======================================================
+
+def merge_items_by_seq(*item_lists):
+    """
+    여러 API 결과를 seq 기준으로 하나로 합치는 함수
+
+    - 같은 seq는 같은 문화정보로 판단
+    - detail_items에 있는 가격, 전화번호, 주소 등 상세정보를 기존 목록 정보에 병합
+    - 값이 비어있지 않은 경우만 덮어쓰기
+    """
+    merged = {}
+
+    for items in item_lists:
+        for item in items:
+            seq = item.get("seq")
+
+            if not seq:
+                continue
+
+            if seq not in merged:
+                merged[seq] = item.copy()
+            else:
+                for key, value in item.items():
+                    if value:
+                        merged[seq][key] = value
+
+    return list(merged.values())
+
+
+def get_unique_seq_list(*item_lists):
+    """
+    여러 목록에서 seq만 모아서 중복 제거하는 함수
+    """
+    seq_set = set()
+
+    for items in item_lists:
+        for item in items:
+            seq = item.get("seq")
+
+            if seq:
+                seq_set.add(seq)
+
+    return sorted(seq_set)
+
+
+# ======================================================
+# 12. 컬럼 통일 및 빈 값 처리 함수
+# ======================================================
+
+def normalize_item(item):
+    """
+    최종 JSON의 컬럼 구조를 통일하는 함수
+
+    - 모든 데이터가 FINAL_FIELDS에 정의된 컬럼을 갖도록 함
+    - 값이 없으면 '정보 없음'으로 채움
+    - thumbnail과 imgUrl은 서로 보완
+    """
+    item = item.copy()
+
+    # 이미지 필드 보완
+    if not item.get("imgUrl") and item.get("thumbnail"):
+        item["imgUrl"] = item.get("thumbnail")
+
+    if not item.get("thumbnail") and item.get("imgUrl"):
+        item["thumbnail"] = item.get("imgUrl")
+
+    # 상세조회 상태 기본값
+    if not item.get("detailStatus"):
+        item["detailStatus"] = "not_requested"
+
+    normalized = {}
+
+    for field in FINAL_FIELDS:
+        value = item.get(field)
+
+        if value is None or value == "":
+            normalized[field] = "정보 없음"
+        else:
+            normalized[field] = value
+
+    return normalized
+
+
+def normalize_items(items):
+    """
+    여러 데이터를 한 번에 컬럼 통일하는 함수
+    """
+    return [normalize_item(item) for item in items]
+
+
+# ======================================================
+# 13. JSON 저장 함수
 # ======================================================
 
 def save_items_to_json(items, file_name):
     """
-    API 조회 결과를 JSON 파일로 저장하는 함수
+    최종 병합 결과를 JSON 파일로 저장하는 함수
     """
-
     save_dir = BASE_DIR / "data"
     save_dir.mkdir(exist_ok=True)
 
@@ -309,29 +443,13 @@ def save_items_to_json(items, file_name):
     print(f"JSON 저장 완료: {save_path}")
 
 
-def save_all_results_to_json(result_data):
-    """
-    여러 API 조회 결과를 각각 JSON 파일로 저장하는 함수
-    """
-
-    print("\n" + "=" * 80)
-    print("JSON 파일 저장 시작")
-    print("=" * 80)
-
-    for file_name, items in result_data.items():
-        save_items_to_json(items, file_name)
-
-    print("=" * 80)
-    print("JSON 파일 저장 완료")
-    print("=" * 80)
-
-
 # ======================================================
-# 11. 전체 API 실행
+# 14. 전체 API 실행
 # ======================================================
 
 if __name__ == "__main__":
     # 1. 문화캘린더정보 목록조회
+    # 현재 최종 병합에는 사용하지 않지만, API 동작 확인용으로 호출
     livelihood_items = get_livelihood_list()
     print_items("1. 문화캘린더정보 목록조회 결과 20개", livelihood_items)
 
@@ -347,26 +465,44 @@ if __name__ == "__main__":
     realm_items = get_realm_list()
     print_items("4. 분야별 문화정보목록조회 결과 20개", realm_items)
 
-    # 5. 상세정보 조회
-    # 상세조회는 seq가 필요하므로 기간별 조회 결과에서 seq 20개 추출
-    seq_list = []
+    # 5. period, area, realm에서 seq를 모두 모은 뒤 중복 제거
+    seq_list = get_unique_seq_list(
+        period_items,
+        area_items,
+        realm_items
+    )
 
-    for item in period_items:
-        seq = item.get("seq")
+    print("\n" + "=" * 80)
+    print("상세조회 대상 seq 개수")
+    print("=" * 80)
+    print(f"중복 제거된 seq 개수: {len(seq_list)}")
 
-        if seq:
-            seq_list.append(seq)
-
+    # 6. 모든 seq에 대해 상세정보 조회
     detail_items = get_detail_list(seq_list)
-    print_items("5. 문화정보 상세정보조회 결과 20개", detail_items)
+    print_items("5. 문화정보 상세정보조회 결과", detail_items)
 
-    # 6. JSON 파일로 저장
-    result_data = {
-        "livelihood_items.json": livelihood_items,
-        "period_items.json": period_items,
-        "area_items.json": area_items,
-        "realm_items.json": realm_items,
-        "detail_items.json": detail_items
-    }
+    # 7. seq 기준 중복 제거 및 병합
+    # livelihood_items는 구조가 달라서 우선 제외
+    merged_items = merge_items_by_seq(
+        period_items,
+        area_items,
+        realm_items,
+        detail_items
+    )
 
-    save_all_results_to_json(result_data)
+    # 8. 모든 컬럼 통일 + 빈 값은 '정보 없음'으로 처리
+    merged_items = normalize_items(merged_items)
+
+    print_items("6. 중복 제거 후 통합 문화정보 결과", merged_items)
+
+    print("\n" + "=" * 80)
+    print("중복 제거 결과 요약")
+    print("=" * 80)
+    print(f"period_items 개수: {len(period_items)}")
+    print(f"area_items 개수: {len(area_items)}")
+    print(f"realm_items 개수: {len(realm_items)}")
+    print(f"detail_items 개수: {len(detail_items)}")
+    print(f"중복 제거 후 merged_items 개수: {len(merged_items)}")
+
+    # 9. 최종 병합 JSON 하나만 저장
+    save_items_to_json(merged_items, "culture_items_merged.json")
