@@ -1,0 +1,1463 @@
+[
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add Token",
+    "content_type": 6,
+    "codename": "add_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change Token",
+    "content_type": 6,
+    "codename": "change_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete Token",
+    "content_type": 6,
+    "codename": "delete_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view Token",
+    "content_type": 6,
+    "codename": "view_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add Token",
+    "content_type": 7,
+    "codename": "add_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change Token",
+    "content_type": 7,
+    "codename": "change_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete Token",
+    "content_type": 7,
+    "codename": "delete_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view Token",
+    "content_type": 7,
+    "codename": "view_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 8,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 8,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 8,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 8,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add genre name",
+    "content_type": 9,
+    "codename": "add_genrename"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change genre name",
+    "content_type": 9,
+    "codename": "change_genrename"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete genre name",
+    "content_type": 9,
+    "codename": "delete_genrename"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view genre name",
+    "content_type": 9,
+    "codename": "view_genrename"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add movie detail",
+    "content_type": 10,
+    "codename": "add_moviedetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change movie detail",
+    "content_type": 10,
+    "codename": "change_moviedetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete movie detail",
+    "content_type": 10,
+    "codename": "delete_moviedetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view movie detail",
+    "content_type": 10,
+    "codename": "view_moviedetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add movie genre",
+    "content_type": 11,
+    "codename": "add_moviegenre"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change movie genre",
+    "content_type": 11,
+    "codename": "change_moviegenre"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete movie genre",
+    "content_type": 11,
+    "codename": "delete_moviegenre"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view movie genre",
+    "content_type": 11,
+    "codename": "view_moviegenre"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add book category",
+    "content_type": 12,
+    "codename": "add_bookcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change book category",
+    "content_type": 12,
+    "codename": "change_bookcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete book category",
+    "content_type": 12,
+    "codename": "delete_bookcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view book category",
+    "content_type": 12,
+    "codename": "view_bookcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add book detail",
+    "content_type": 13,
+    "codename": "add_bookdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change book detail",
+    "content_type": 13,
+    "codename": "change_bookdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete book detail",
+    "content_type": 13,
+    "codename": "delete_bookdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view book detail",
+    "content_type": 13,
+    "codename": "view_bookdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add book category map",
+    "content_type": 14,
+    "codename": "add_bookcategorymap"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change book category map",
+    "content_type": 14,
+    "codename": "change_bookcategorymap"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete book category map",
+    "content_type": 14,
+    "codename": "delete_bookcategorymap"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view book category map",
+    "content_type": 14,
+    "codename": "view_bookcategorymap"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add place",
+    "content_type": 15,
+    "codename": "add_place"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change place",
+    "content_type": 15,
+    "codename": "change_place"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete place",
+    "content_type": 15,
+    "codename": "delete_place"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view place",
+    "content_type": 15,
+    "codename": "view_place"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add culture event",
+    "content_type": 16,
+    "codename": "add_cultureevent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change culture event",
+    "content_type": 16,
+    "codename": "change_cultureevent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete culture event",
+    "content_type": 16,
+    "codename": "delete_cultureevent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view culture event",
+    "content_type": 16,
+    "codename": "view_cultureevent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add content item",
+    "content_type": 17,
+    "codename": "add_contentitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change content item",
+    "content_type": 17,
+    "codename": "change_contentitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete content item",
+    "content_type": 17,
+    "codename": "delete_contentitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view content item",
+    "content_type": 17,
+    "codename": "view_contentitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 69,
+  "fields": {
+    "name": "Can add keyword",
+    "content_type": 18,
+    "codename": "add_keyword"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 70,
+  "fields": {
+    "name": "Can change keyword",
+    "content_type": 18,
+    "codename": "change_keyword"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 71,
+  "fields": {
+    "name": "Can delete keyword",
+    "content_type": 18,
+    "codename": "delete_keyword"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 72,
+  "fields": {
+    "name": "Can view keyword",
+    "content_type": 18,
+    "codename": "view_keyword"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 73,
+  "fields": {
+    "name": "Can add content keyword",
+    "content_type": 19,
+    "codename": "add_contentkeyword"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 74,
+  "fields": {
+    "name": "Can change content keyword",
+    "content_type": 19,
+    "codename": "change_contentkeyword"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 75,
+  "fields": {
+    "name": "Can delete content keyword",
+    "content_type": 19,
+    "codename": "delete_contentkeyword"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 76,
+  "fields": {
+    "name": "Can view content keyword",
+    "content_type": 19,
+    "codename": "view_contentkeyword"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 77,
+  "fields": {
+    "name": "Can add taste result",
+    "content_type": 20,
+    "codename": "add_tasteresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 78,
+  "fields": {
+    "name": "Can change taste result",
+    "content_type": 20,
+    "codename": "change_tasteresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 79,
+  "fields": {
+    "name": "Can delete taste result",
+    "content_type": 20,
+    "codename": "delete_tasteresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 80,
+  "fields": {
+    "name": "Can view taste result",
+    "content_type": 20,
+    "codename": "view_tasteresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 81,
+  "fields": {
+    "name": "Can add user keyword",
+    "content_type": 21,
+    "codename": "add_userkeyword"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 82,
+  "fields": {
+    "name": "Can change user keyword",
+    "content_type": 21,
+    "codename": "change_userkeyword"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 83,
+  "fields": {
+    "name": "Can delete user keyword",
+    "content_type": 21,
+    "codename": "delete_userkeyword"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 84,
+  "fields": {
+    "name": "Can view user keyword",
+    "content_type": 21,
+    "codename": "view_userkeyword"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 85,
+  "fields": {
+    "name": "Can add content feedback",
+    "content_type": 22,
+    "codename": "add_contentfeedback"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 86,
+  "fields": {
+    "name": "Can change content feedback",
+    "content_type": 22,
+    "codename": "change_contentfeedback"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 87,
+  "fields": {
+    "name": "Can delete content feedback",
+    "content_type": 22,
+    "codename": "delete_contentfeedback"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 88,
+  "fields": {
+    "name": "Can view content feedback",
+    "content_type": 22,
+    "codename": "view_contentfeedback"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 89,
+  "fields": {
+    "name": "Can add bookmark",
+    "content_type": 23,
+    "codename": "add_bookmark"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 90,
+  "fields": {
+    "name": "Can change bookmark",
+    "content_type": 23,
+    "codename": "change_bookmark"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 91,
+  "fields": {
+    "name": "Can delete bookmark",
+    "content_type": 23,
+    "codename": "delete_bookmark"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 92,
+  "fields": {
+    "name": "Can view bookmark",
+    "content_type": 23,
+    "codename": "view_bookmark"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 93,
+  "fields": {
+    "name": "Can add taste question",
+    "content_type": 24,
+    "codename": "add_tastequestion"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 94,
+  "fields": {
+    "name": "Can change taste question",
+    "content_type": 24,
+    "codename": "change_tastequestion"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 95,
+  "fields": {
+    "name": "Can delete taste question",
+    "content_type": 24,
+    "codename": "delete_tastequestion"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 96,
+  "fields": {
+    "name": "Can view taste question",
+    "content_type": 24,
+    "codename": "view_tastequestion"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 97,
+  "fields": {
+    "name": "Can add taste test config",
+    "content_type": 25,
+    "codename": "add_tastetestconfig"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 98,
+  "fields": {
+    "name": "Can change taste test config",
+    "content_type": 25,
+    "codename": "change_tastetestconfig"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 99,
+  "fields": {
+    "name": "Can delete taste test config",
+    "content_type": 25,
+    "codename": "delete_tastetestconfig"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 100,
+  "fields": {
+    "name": "Can view taste test config",
+    "content_type": 25,
+    "codename": "view_tastetestconfig"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 101,
+  "fields": {
+    "name": "Can add taste type definition",
+    "content_type": 26,
+    "codename": "add_tastetypedefinition"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 102,
+  "fields": {
+    "name": "Can change taste type definition",
+    "content_type": 26,
+    "codename": "change_tastetypedefinition"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 103,
+  "fields": {
+    "name": "Can delete taste type definition",
+    "content_type": 26,
+    "codename": "delete_tastetypedefinition"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 104,
+  "fields": {
+    "name": "Can view taste type definition",
+    "content_type": 26,
+    "codename": "view_tastetypedefinition"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 105,
+  "fields": {
+    "name": "Can add taste score rule",
+    "content_type": 27,
+    "codename": "add_tastescorerule"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 106,
+  "fields": {
+    "name": "Can change taste score rule",
+    "content_type": 27,
+    "codename": "change_tastescorerule"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 107,
+  "fields": {
+    "name": "Can delete taste score rule",
+    "content_type": 27,
+    "codename": "delete_tastescorerule"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 108,
+  "fields": {
+    "name": "Can view taste score rule",
+    "content_type": 27,
+    "codename": "view_tastescorerule"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 109,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 28,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 110,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 28,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 111,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 28,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 112,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 28,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 113,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 29,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 114,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 29,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 115,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 29,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 116,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 29,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "authtoken",
+    "model": "token"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "authtoken",
+    "model": "tokenproxy"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "accounts",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "movies",
+    "model": "genrename"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "movies",
+    "model": "moviedetail"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "movies",
+    "model": "moviegenre"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "books",
+    "model": "bookcategory"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "books",
+    "model": "bookdetail"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "books",
+    "model": "bookcategorymap"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "cultures",
+    "model": "place"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "cultures",
+    "model": "cultureevent"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "tastes",
+    "model": "contentitem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 18,
+  "fields": {
+    "app_label": "tastes",
+    "model": "keyword"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 19,
+  "fields": {
+    "app_label": "tastes",
+    "model": "contentkeyword"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 20,
+  "fields": {
+    "app_label": "tastes",
+    "model": "tasteresult"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 21,
+  "fields": {
+    "app_label": "tastes",
+    "model": "userkeyword"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 22,
+  "fields": {
+    "app_label": "tastes",
+    "model": "contentfeedback"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 23,
+  "fields": {
+    "app_label": "tastes",
+    "model": "bookmark"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 24,
+  "fields": {
+    "app_label": "tastes",
+    "model": "tastequestion"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 25,
+  "fields": {
+    "app_label": "tastes",
+    "model": "tastetestconfig"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 26,
+  "fields": {
+    "app_label": "tastes",
+    "model": "tastetypedefinition"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 27,
+  "fields": {
+    "app_label": "tastes",
+    "model": "tastescorerule"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 28,
+  "fields": {
+    "app_label": "community",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 29,
+  "fields": {
+    "app_label": "community",
+    "model": "comment"
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "f751d8042ea98e8bd660331795748b9d45b3c971",
+  "fields": {
+    "user": 1,
+    "created": "2026-06-25T08:58:46.618Z"
+  }
+},
+{
+  "model": "accounts.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$2nhtDlUayt6s6ZcQa4YgG6$B467SK3rHZBzGIRDw3aTCUwL0LSwFsRadvKCO+te5js=",
+    "last_login": "2026-06-25T08:58:46.630Z",
+    "is_superuser": true,
+    "login_id": "ssafy",
+    "email": null,
+    "nickname": "ssafy",
+    "profile_image": null,
+    "is_active": true,
+    "is_staff": true,
+    "created_at": "2026-06-25T08:58:37.845Z",
+    "updated_at": "2026-06-25T08:58:37.845Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "movies.moviedetail",
+  "pk": 1,
+  "fields": {
+    "content_item": 1,
+    "tmdb_id": 2,
+    "original_title": "Ariel",
+    "original_language": "fi",
+    "english_name": "Finnish",
+    "poster_path": "/zezQwt75vpXzj4Nhru0NJaCrnZO.jpg",
+    "backdrop_path": "/hQ4pYsIbP22TMXOUdSfC2mjWrO0.jpg",
+    "release_date": "1988-10-21",
+    "vote_average": 7.121,
+    "vote_count": 375,
+    "popularity": 1.308,
+    "softcore": false,
+    "video": false
+  }
+},
+{
+  "model": "movies.moviedetail",
+  "pk": 2,
+  "fields": {
+    "content_item": 2,
+    "tmdb_id": 3,
+    "original_title": "Varjoja paratiisissa",
+    "original_language": "fi",
+    "english_name": "Finnish",
+    "poster_path": "/8QLOWfrJ7vMVJB2UgG7MA9Q5Jnp.jpg",
+    "backdrop_path": "/l94l89eMmFKh7na2a1u5q67VgNx.jpg",
+    "release_date": "1986-10-17",
+    "vote_average": 7.26,
+    "vote_count": 441,
+    "popularity": 1.0838,
+    "softcore": false,
+    "video": false
+  }
+},
+{
+  "model": "movies.moviedetail",
+  "pk": 3,
+  "fields": {
+    "content_item": 3,
+    "tmdb_id": 11,
+    "original_title": "Star Wars",
+    "original_language": "en",
+    "english_name": "English",
+    "poster_path": "/7XFfURIFCJxN1mfBg0SAjk5yGzg.jpg",
+    "backdrop_path": "/3H94YlnYWVLKQKEnfTBKvrCmHmt.jpg",
+    "release_date": "1977-05-25",
+    "vote_average": 8.206,
+    "vote_count": 22412,
+    "popularity": 23.189,
+    "softcore": false,
+    "video": false
+  }
+},
+{
+  "model": "movies.moviedetail",
+  "pk": 4,
+  "fields": {
+    "content_item": 4,
+    "tmdb_id": 12,
+    "original_title": "Finding Nemo",
+    "original_language": "en",
+    "english_name": "English",
+    "poster_path": "/9ViCYfZ0whpwtKbM2WJP5PfsG2x.jpg",
+    "backdrop_path": "/eCynaAOgYYiw5yN5lBwz3IxqvaW.jpg",
+    "release_date": "2003-05-30",
+    "vote_average": 7.819,
+    "vote_count": 20605,
+    "popularity": 19.1981,
+    "softcore": false,
+    "video": false
+  }
+},
+{
+  "model": "movies.moviedetail",
+  "pk": 5,
+  "fields": {
+    "content_item": 5,
+    "tmdb_id": 13,
+    "original_title": "Forrest Gump",
+    "original_language": "en",
+    "english_name": "English",
+    "poster_path": "/l8wvbQQIBV8LBHmx3Wx9xbE2kzt.jpg",
+    "backdrop_path": "/66Kn4XWhkuPkJxOJyPEx4U2CUfN.jpg",
+    "release_date": "1994-06-23",
+    "vote_average": 8.465,
+    "vote_count": 29855,
+    "popularity": 21.3169,
+    "softcore": false,
+    "video": false
+  }
+},
+{
+  "model": "movies.moviedetail",
+  "pk": 6,
+  "fields": {
+    "content_item": 6,
+    "tmdb_id": 14,
+    "original_title": "American Beauty",
+    "original_language": "en",
+    "english_name": "English",
+    "poster_path": "/osdwif0XkFgalOCPksm4Yvczyzc.jpg",
+    "backdrop_path": "/2ndw55F40IkALzWyjCCza3M6nqM.jpg",
+    "release_date": "1999-09-15",
+    "vote_average": 7.999,
+    "vote_count": 13090,
+    "popularity": 10.2684,
+    "softcore": false,
+    "video": false
+  }
+},
+{
+  "model": "movies.moviedetail",
+  "pk": 7,
+  "fields": {
+    "content_item": 7,
+    "tmdb_id": 16,
+    "original_title": "Dancer in the Dark",
+    "original_language": "en",
+    "english_name": "English",
+    "poster_path": "/lZ5f50njL6owdEr0xiZQT02q0yN.jpg",
+    "backdrop_path": "/vxvzf0cGtFY2Vpw5ULWumCIW6Ri.jpg",
+    "release_date": "2000-09-01",
+    "vote_average": 7.8,
+    "vote_count": 2013,
+    "popularity": 2.7679,
+    "softcore": false,
+    "video": false
+  }
+},
+{
+  "model": "movies.moviedetail",
+  "pk": 8,
+  "fields": {
+    "content_item": 8,
+    "tmdb_id": 17,
+    "original_title": "The Dark",
+    "original_language": "en",
+    "english_name": "English",
+    "poster_path": "/h6gCVAzjFLhzkffv2VZO1RgVCBt.jpg",
+    "backdrop_path": "/dhr0q4eiRr8ltqPig32TwhPRdaD.jpg",
+    "release_date": "2005-09-28",
+    "vote_average": 5.681,
+    "vote_count": 295,
+    "popularity": 2.1313,
+    "softcore": false,
+    "video": false
+  }
+},
+{
+  "model": "movies.moviedetail",
+  "pk": 9,
+  "fields": {
+    "content_item": 9,
+    "tmdb_id": 18,
+    "original_title": 

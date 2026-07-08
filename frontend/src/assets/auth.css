@@ -1,0 +1,64 @@
+.auth-page {
+  display: grid;
+  min-height: calc(100vh - 72px);
+  place-items: center;
+  padding: 2rem 1rem;
+  background:
+    radial-gradient(circle at 18% 10%, rgba(92, 207, 195, .14), transparent 22rem),
+    var(--gotya-gray);
+}
+
+.auth-card {
+  display: grid;
+  gap: 1rem;
+  width: min(100%, 26rem);
+  padding: 2rem;
+  border: 1px solid var(--gotya-border);
+  border-radius: 1.45rem;
+  background: white;
+  box-shadow: var(--gotya-shadow-strong);
+}
+
+.auth-card h1 {
+  margin: 0 0 0.5rem;
+}
+
+.auth-card label {
+  display: grid;
+  gap: 0.45rem;
+  font-weight: 600;
+}
+
+.auth-card input {
+  border: 1px solid var(--gotya-border);
+  border-radius: 1rem;
+  padding: 0.75rem;
+  font: inherit;
+}
+
+.auth-card button {
+  border: 0;
+  border-radius: var(--gotya-radius-button);
+  padding: 0.8rem 1rem;
+  background: var(--gotya-mint);
+  color: var(--gotya-navy);
+  font: inherit;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.auth-card button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  background: var(--gotya-mint-dark);
+  color: white;
+}
+
+.auth-card button:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
+.error {
+  margin: 0;
+  color: #b91c1c;
+}

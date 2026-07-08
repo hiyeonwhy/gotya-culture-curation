@@ -1,0 +1,1197 @@
+{
+  "test_meta": {
+    "service_name": "오늘 뭐함?",
+    "test_name": "문화 취향 테스트",
+    "answer_type": "choice",
+    "answer_options": [
+      {
+        "label": "A",
+        "value": "A"
+      },
+      {
+        "label": "B",
+        "value": "B"
+      }
+    ],
+    "description": "상황형 A/B 선택을 기반으로 사용자의 문화 취향 유형과 4개 양극 성향축을 함께 계산한다."
+  },
+  "result_types": [
+    {
+      "code": "TREND",
+      "name": "유행 탑승형",
+      "base_type": "대중형",
+      "subtitle": "요즘 핫하다면 일단 한 번은 봐야 직성이 풀려요.",
+      "summary": "인기 콘텐츠와 가볍게 즐길 수 있는 작품에 끌리는 타입입니다.",
+      "description": [
+        "사람들이 많이 보는 콘텐츠에 관심이 많아요.",
+        "어렵고 무거운 작품보다 가볍고 재밌는 콘텐츠를 선호해요.",
+        "친구들과 이야기 나누기 좋은 인기작에 끌리는 편이에요."
+      ],
+      "recommendation": {
+        "movie_genres": [
+          "comedy",
+          "romance",
+          "family",
+          "animation"
+        ],
+        "book_keywords": [
+          "에세이",
+          "대중문화",
+          "로맨스",
+          "만화"
+        ],
+        "culture_categories": [
+          "행사/축제",
+          "아동/가족",
+          "전시"
+        ]
+      },
+      "keywords": [
+        "인기작",
+        "가볍게",
+        "재미",
+        "대중문화",
+        "로맨스",
+        "만화",
+        "행사/축제",
+        "전시"
+      ],
+      "character_concept": "핫한 작품 리스트와 팝콘을 들고 있는 캐릭터"
+    },
+    {
+      "code": "MONGLE",
+      "name": "마음 몽글형",
+      "base_type": "감성형",
+      "subtitle": "보고 나면 마음 한쪽에 오래 남는 작품이 좋아요.",
+      "summary": "감정선, 분위기, 여운이 있는 콘텐츠에 잘 몰입하는 타입입니다.",
+      "description": [
+        "감정선이 진한 이야기나 분위기 있는 콘텐츠에 잘 몰입해요.",
+        "빠르고 자극적인 전개보다 천천히 스며드는 작품을 좋아해요.",
+        "혼자 조용히 영화, 책, 전시를 즐기는 시간이 잘 맞아요."
+      ],
+      "recommendation": {
+        "movie_genres": [
+          "drama",
+          "romance",
+          "music"
+        ],
+        "book_keywords": [
+          "소설",
+          "시",
+          "에세이"
+        ],
+        "culture_categories": [
+          "연극",
+          "전시",
+          "음악/콘서트"
+        ]
+      },
+      "keywords": [
+        "감성",
+        "여운",
+        "몰입",
+        "소설",
+        "시",
+        "에세이",
+        "드라마",
+        "전시",
+        "연극"
+      ],
+      "character_concept": "책이나 영화 티켓을 안고 있는 감성 캐릭터"
+    },
+    {
+      "code": "WORLD",
+      "name": "세계관 과몰입형",
+      "base_type": "상상형",
+      "subtitle": "현실 로그아웃, 새로운 세계관에 접속합니다.",
+      "summary": "판타지, SF, 모험처럼 독특한 설정과 세계관에 빠지는 타입입니다.",
+      "description": [
+        "현실적인 이야기보다 판타지, SF, 모험 장르에 끌려요.",
+        "독특한 설정, 캐릭터, 세계관이 있는 콘텐츠를 좋아해요.",
+        "한 번 빠지면 관련 작품이나 설정까지 찾아보는 편이에요."
+      ],
+      "recommendation": {
+        "movie_genres": [
+          "fantasy",
+          "science_fiction",
+          "adventure",
+          "animation"
+        ],
+        "book_keywords": [
+          "판타지",
+          "라이트노벨",
+          "만화",
+          "무협"
+        ],
+        "culture_categories": [
+          "뮤지컬/오페라",
+          "전시",
+          "교육/체험"
+        ]
+      },
+      "keywords": [
+        "판타지",
+        "SF",
+        "세계관",
+        "모험",
+        "애니메이션",
+        "라이트노벨",
+        "만화",
+        "뮤지컬/오페라"
+      ],
+      "character_concept": "마법책, 포털, 우주 배경을 가진 캐릭터"
+    },
+    {
+      "code": "KNOWLEDGE",
+      "name": "지식 냠냠형",
+      "base_type": "지식형",
+      "subtitle": "재미도 먹고, 지식도 야무지게 챙겨요.",
+      "summary": "콘텐츠를 통해 새로운 지식과 관점을 얻는 것을 좋아하는 타입입니다.",
+      "description": [
+        "콘텐츠를 통해 새로운 지식이나 관점을 얻는 걸 좋아해요.",
+        "역사, 사회, 과학, 인문처럼 생각할 거리가 있는 주제에 끌려요.",
+        "전시나 체험 프로그램처럼 배울 수 있는 문화생활과 잘 맞아요."
+      ],
+      "recommendation": {
+        "movie_genres": [
+          "documentary",
+          "history",
+          "mystery",
+          "drama"
+        ],
+        "book_keywords": [
+          "인문",
+          "역사",
+          "사회",
+          "과학"
+        ],
+        "culture_categories": [
+          "전시",
+          "교육/체험",
+          "국악"
+        ]
+      },
+      "keywords": [
+        "지식",
+        "교양",
+        "인문",
+        "역사",
+        "사회",
+        "과학",
+        "다큐멘터리",
+        "전시",
+        "교육/체험"
+      ],
+      "character_concept": "돋보기, 노트, 전시 팸플릿을 들고 있는 캐릭터"
+    },
+    {
+      "code": "FESTIVAL",
+      "name": "축제 팔랑귀형",
+      "base_type": "활동형",
+      "subtitle": "재밌다는 말만 들으면 어느새 현장에 도착해 있어요.",
+      "summary": "현장감 있는 축제, 콘서트, 행사, 체험을 좋아하는 타입입니다.",
+      "description": [
+        "조용히 감상하는 것보다 직접 가서 분위기를 느끼는 걸 좋아해요.",
+        "축제, 콘서트, 행사, 체험형 활동에 관심이 많아요.",
+        "문화생활에서 생생한 현장감을 중요하게 생각해요."
+      ],
+      "recommendation": {
+        "movie_genres": [
+          "action",
+          "thriller",
+          "music",
+          "adventure"
+        ],
+        "book_keywords": [
+          "여행",
+          "취미",
+          "자기계발"
+        ],
+        "culture_categories": [
+          "행사/축제",
+          "음악/콘서트",
+          "교육/체험"
+        ]
+      },
+      "keywords": [
+        "축제",
+        "현장감",
+        "콘서트",
+        "체험",
+        "활동",
+        "여행",
+        "취미",
+        "액션",
+        "음악/콘서트"
+      ],
+      "character_concept": "응원봉이나 티켓을 들고 뛰어가는 캐릭터"
+    },
+    {
+      "code": "TOGETHER",
+      "name": "같이보기 찰떡형",
+      "base_type": "공감형",
+      "subtitle": "좋은 건 같이 봐야 더 오래 기억나요.",
+      "summary": "가족, 친구, 연인과 함께 즐길 수 있는 따뜻한 콘텐츠를 선호하는 타입입니다.",
+      "description": [
+        "가족, 친구, 연인과 함께 즐길 수 있는 콘텐츠를 좋아해요.",
+        "혼자만의 취향보다 함께 웃고 공감할 수 있는 분위기를 선호해요.",
+        "문화생활을 하나의 추억으로 남기는 걸 좋아해요."
+      ],
+      "recommendation": {
+        "movie_genres": [
+          "family",
+          "animation",
+          "comedy",
+          "romance"
+        ],
+        "book_keywords": [
+          "에세이",
+          "요리",
+          "살림",
+          "건강"
+        ],
+        "culture_categories": [
+          "아동/가족",
+          "전시",
+          "행사/축제"
+        ]
+      },
+      "keywords": [
+        "함께보기",
+        "공감",
+        "따뜻함",
+        "가족",
+        "친구와",
+        "애니메이션",
+        "코미디",
+        "에세이",
+        "아동/가족"
+      ],
+      "character_concept": "친구나 가족과 나란히 앉아 있는 캐릭터"
+    }
+  ],
+  "axis_definitions": [
+    {
+      "key": "trend_vs_personal",
+      "left_label": "유행 탐색형",
+      "right_label": "취향 고집형",
+      "left_description": "화제성, 인기 순위, 리뷰 수에 반응해 새로운 콘텐츠를 탐색합니다.",
+      "right_description": "남들의 반응보다 자기 취향, 분위기, 관심 주제를 우선합니다."
+    },
+    {
+      "key": "emotion_vs_knowledge",
+      "left_label": "감성 몰입형",
+      "right_label": "지식 탐구형",
+      "left_description": "감정선, 여운, 분위기, 공감에 깊게 몰입합니다.",
+      "right_description": "정보, 배움, 관점, 해석처럼 생각할 거리에 끌립니다."
+    },
+    {
+      "key": "world_vs_reality",
+      "left_label": "세계관 몰입형",
+      "right_label": "현실 공감형",
+      "left_description": "판타지, SF, 설정, 캐릭터, 시리즈성에 끌립니다.",
+      "right_description": "일상, 관계, 현실적인 감정과 공감 포인트에 끌립니다."
+    },
+    {
+      "key": "field_vs_home",
+      "left_label": "현장 체험형",
+      "right_label": "안정 감상형",
+      "left_description": "축제, 공연, 전시, 팝업처럼 직접 방문하는 경험을 선호합니다.",
+      "right_description": "집, 카페, 도서관 등 익숙한 공간에서 차분히 감상하는 시간을 선호합니다."
+    }
+  ],
+  "questions": [
+    {
+      "question_id": 1,
+      "order_no": 1,
+      "question_text": "주말 저녁, 볼 콘텐츠를 고르는 순간입니다.\n가장 먼저 마음이 가는 기준은 무엇인가요?",
+      "options": [
+        {
+          "label": "A",
+          "text": "요즘 많이 이야기되는 작품을 골라\n대화에 함께하고 싶다.",
+          "value": "A",
+          "type_scores": {
+            "TREND": 2
+          },
+          "axis_scores": {
+            "trend_vs_personal": {
+              "left": 2
+            }
+          }
+        },
+        {
+          "label": "B",
+          "text": "유행보다 지금 내 기분과 취향에\n맞는 작품인지 본다.",
+          "value": "B",
+          "type_scores": {
+            "MONGLE": 1,
+            "KNOWLEDGE": 1
+          },
+          "axis_scores": {
+            "trend_vs_personal": {
+              "right": 2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "question_id": 2,
+      "order_no": 2,
+      "question_text": "좋은 작품을 보고 난 뒤, 더 오래 남는 쪽은 어디에 가까운가요?",
+      "options": [
+        {
+          "label": "A",
+          "text": "인물의 감정선, 분위기,\n장면이 남긴 여운",
+          "value": "A",
+          "type_scores": {
+            "MONGLE": 2
+          },
+          "axis_scores": {
+            "emotion_vs_knowledge": {
+              "left": 2
+            }
+          }
+        },
+        {
+          "label": "B",
+          "text": "새롭게 알게 된 사실,\n해석할 거리, 관점의 변화",
+          "value": "B",
+          "type_scores": {
+            "KNOWLEDGE": 2
+          },
+          "axis_scores": {
+            "emotion_vs_knowledge": {
+              "right": 2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "question_id": 3,
+      "order_no": 3,
+      "question_text": "처음 보는 작품 하나를 고른다면 어떤 쪽에 더 끌리나요?",
+      "options": [
+        {
+          "label": "A",
+          "text": "규칙과 설정이 탄탄한\n판타지, SF, 모험 세계",
+          "value": "A",
+          "type_scores": {
+            "WORLD": 2
+          },
+          "axis_scores": {
+            "world_vs_reality": {
+              "left": 2
+            }
+          }
+        },
+        {
+          "label": "B",
+          "text": "내 주변 사람들과 닮은\n현실적인 관계와 감정 이야기",
+          "value": "B",
+          "type_scores": {
+            "TOGETHER": 1,
+            "MONGLE": 1
+          },
+          "axis_scores": {
+            "world_vs_reality": {
+              "right": 2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "question_id": 4,
+      "order_no": 4,
+      "question_text": "문화생활로 기분 전환을 하고 싶을 때 더 끌리는 선택은 무엇인가요?",
+      "options": [
+        {
+          "label": "A",
+          "text": "직접 나가서 공연, 축제, 팝업,\n전시의 현장감을 느낀다.",
+          "value": "A",
+          "type_scores": {
+            "FESTIVAL": 2
+          },
+          "axis_scores": {
+            "field_vs_home": {
+              "left": 2
+            }
+          }
+        },
+        {
+          "label": "B",
+          "text": "조용한 공간에서 책이나 영화를\n보며 천천히 쉰다.",
+          "value": "B",
+          "type_scores": {
+            "KNOWLEDGE": 1,
+            "MONGLE": 1
+          },
+          "axis_scores": {
+            "field_vs_home": {
+              "right": 2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "question_id": 5,
+      "order_no": 5,
+      "question_text": "마음에 드는 콘텐츠를 발견했을 때\n가장 먼저 떠오르는 생각은 무엇인가요?",
+      "options": [
+        {
+          "label": "A",
+          "text": "친구나 가족에게 추천해서\n같이 보고 이야기하고 싶다.",
+          "value": "A",
+          "type_scores": {
+            "TOGETHER": 2
+          },
+          "axis_scores": {
+            "world_vs_reality": {
+              "right": 1
+            }
+          }
+        },
+        {
+          "label": "B",
+          "text": "혼자 충분히 감상하고\n내 방식대로 정리하고 싶다.",
+          "value": "B",
+          "type_scores": {
+            "KNOWLEDGE": 1,
+            "MONGLE": 1
+          },
+          "axis_scores": {
+            "trend_vs_personal": {
+              "right": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "question_id": 6,
+      "order_no": 6,
+      "question_text": "기간 한정 전시나 축제 소식을 봤습니다.\n당신의 반응은 어느 쪽인가요?",
+      "options": [
+        {
+          "label": "A",
+          "text": "놓치면 아쉬우니 일정부터 확인하고\n가볼 방법을 찾는다.",
+          "value": "A",
+          "type_scores": {
+            "FESTIVAL": 2
+          },
+          "axis_scores": {
+            "field_vs_home": {
+              "left": 2
+            },
+            "trend_vs_personal": {
+              "left": 1
+            }
+          }
+        },
+        {
+          "label": "B",
+          "text": "끌리긴 해도 붐비거나 급하면\n나중에 비슷한 콘텐츠를 찾는다.",
+          "value": "B",
+          "type_scores": {
+            "TREND": 1,
+            "KNOWLEDGE": 1
+          },
+          "axis_scores": {
+            "field_vs_home": {
+              "right": 2
+            },
+            "trend_vs_personal": {
+              "right": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "question_id": 7,
+      "order_no": 7,
+      "question_text": "낯선 장르의 작품을 만났을 때\n도전하게 만드는 요소는 무엇인가요?",
+      "options": [
+        {
+          "label": "A",
+          "text": "세계관, 캐릭터, 설정이 독특해서\n파고들 여지가 있다.",
+          "value": "A",
+          "type_scores": {
+            "WORLD": 2
+          },
+          "axis_scores": {
+            "world_vs_reality": {
+              "left": 2
+            }
+          }
+        },
+        {
+          "label": "B",
+          "text": "리뷰가 좋고 주변 반응도 좋아서\n실패할 확률이 낮아 보인다.",
+          "value": "B",
+          "type_scores": {
+            "TREND": 2
+          },
+          "axis_scores": {
+            "trend_vs_personal": {
+              "left": 2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "question_id": 8,
+      "order_no": 8,
+      "question_text": "전시를 보러 간다면 어떤 전시에 더 끌리나요?",
+      "options": [
+        {
+          "label": "A",
+          "text": "사진 찍기 좋고\n지금 사람들이 많이 찾는 화제의 전시",
+          "value": "A",
+          "type_scores": {
+            "TREND": 1,
+            "FESTIVAL": 1
+          },
+          "axis_scores": {
+            "trend_vs_personal": {
+              "left": 1
+            },
+            "field_vs_home": {
+              "left": 1
+            }
+          }
+        },
+        {
+          "label": "B",
+          "text": "설명을 읽고 나면\n생각할 거리가 많아지는 전시",
+          "value": "B",
+          "type_scores": {
+            "KNOWLEDGE": 2
+          },
+          "axis_scores": {
+            "emotion_vs_knowledge": {
+              "right": 2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "question_id": 9,
+      "order_no": 9,
+      "question_text": "같이 볼 콘텐츠를 고르는 상황입니다.\n더 중요하게 보는 것은 무엇인가요?",
+      "options": [
+        {
+          "label": "A",
+          "text": "함께 웃고 바로 이야기할 수 있는\n편한 분위기",
+          "value": "A",
+          "type_scores": {
+            "TOGETHER": 2,
+            "TREND": 1
+          },
+          "axis_scores": {
+            "world_vs_reality": {
+              "right": 1
+            },
+            "trend_vs_personal": {
+              "left": 1
+            }
+          }
+        },
+        {
+          "label": "B",
+          "text": "각자 집중해서 감상한 뒤\n깊게 이야기할 수 있는 밀도",
+          "value": "B",
+          "type_scores": {
+            "KNOWLEDGE": 1,
+            "MONGLE": 1
+          },
+          "axis_scores": {
+            "emotion_vs_knowledge": {
+              "left": 1,
+              "right": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "question_id": 10,
+      "order_no": 10,
+      "question_text": "콘텐츠를 보고 \"잘 봤다\"라고 느끼는 순간은 언제인가요?",
+      "options": [
+        {
+          "label": "A",
+          "text": "몰랐던 분야를 이해하거나\n새로운 관점을 얻었을 때",
+          "value": "A",
+          "type_scores": {
+            "KNOWLEDGE": 2
+          },
+          "axis_scores": {
+            "emotion_vs_knowledge": {
+              "right": 2
+            }
+          }
+        },
+        {
+          "label": "B",
+          "text": "감정적으로 위로받거나\n오래 곱씹을 장면이 남았을 때",
+          "value": "B",
+          "type_scores": {
+            "MONGLE": 2
+          },
+          "axis_scores": {
+            "emotion_vs_knowledge": {
+              "left": 2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "question_id": 11,
+      "order_no": 11,
+      "question_text": "하루를 비워 문화생활을 한다면 어떤 일정에 더 가깝나요?",
+      "options": [
+        {
+          "label": "A",
+          "text": "전시, 공연, 팝업, 산책까지\n묶어서 밖에서 보내기",
+          "value": "A",
+          "type_scores": {
+            "FESTIVAL": 2
+          },
+          "axis_scores": {
+            "field_vs_home": {
+              "left": 2
+            }
+          }
+        },
+        {
+          "label": "B",
+          "text": "서점이나 카페에서\n책과 영화를 천천히 즐기기",
+          "value": "B",
+          "type_scores": {
+            "TOGETHER": 1,
+            "MONGLE": 1
+          },
+          "axis_scores": {
+            "field_vs_home": {
+              "right": 2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "question_id": 12,
+      "order_no": 12,
+      "question_text": "작품을 좋아하게 됐을 때 당신에게 더 가까운 행동은 무엇인가요?",
+      "options": [
+        {
+          "label": "A",
+          "text": "원작, 후속작, 설정, 관련 굿즈까지\n이어서 찾아본다.",
+          "value": "A",
+          "type_scores": {
+            "WORLD": 2
+          },
+          "axis_scores": {
+            "world_vs_reality": {
+              "left": 2
+            }
+          }
+        },
+        {
+          "label": "B",
+          "text": "좋아할 만한 사람을 떠올리고\n함께 나눌 방법을 찾는다.",
+          "value": "B",
+          "type_scores": {
+            "TOGETHER": 2
+          },
+          "axis_scores": {
+            "world_vs_reality": {
+              "right": 2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "question_id": 13,
+      "order_no": 13,
+      "question_text": "마지막으로 하나를 골라야 한다면,\n오늘 당신에게 더 필요한 콘텐츠는 무엇인가요?",
+      "options": [
+        {
+          "label": "A",
+          "text": "지금 바로 즐겁고 부담 없이\n볼 수 있는 콘텐츠",
+          "value": "A",
+          "type_scores": {
+            "TREND": 1,
+            "FESTIVAL": 1
+          },
+          "axis_scores": {
+            "trend_vs_personal": {
+              "left": 1
+            },
+            "field_vs_home": {
+              "left": 1
+            }
+          }
+        },
+        {
+          "label": "B",
+          "text": "오래 기억에 남고 내 취향을\n더 선명하게 해주는 콘텐츠",
+          "value": "B",
+          "type_scores": {
+            "WORLD": 1,
+            "KNOWLEDGE": 1
+          },
+          "axis_scores": {
+            "trend_vs_personal": {
+              "right": 1
+            },
+            "emotion_vs_knowledge": {
+              "right": 1
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "result_keyword_map": {
+    "TREND": [
+      "인기작",
+      "가볍게",
+      "재미",
+      "대중문화",
+      "로맨스",
+      "만화",
+      "comedy",
+      "romance",
+      "family",
+      "animation",
+      "행사/축제",
+      "전시"
+    ],
+    "MONGLE": [
+      "감성",
+      "여운",
+      "몰입",
+      "소설",
+      "시",
+      "에세이",
+      "drama",
+      "romance",
+      "music",
+      "연극",
+      "전시",
+      "음악/콘서트"
+    ],
+    "WORLD": [
+      "판타지",
+      "SF",
+      "세계관",
+      "모험",
+      "fantasy",
+      "science_fiction",
+      "adventure",
+      "animation",
+      "라이트노벨",
+      "만화",
+      "무협",
+      "뮤지컬/오페라",
+      "전시"
+    ],
+    "KNOWLEDGE": [
+      "지식",
+      "교양",
+      "인문",
+      "역사",
+      "사회",
+      "과학",
+      "documentary",
+      "history",
+      "mystery",
+      "drama",
+      "전시",
+      "교육/체험",
+      "국악"
+    ],
+    "FESTIVAL": [
+      "축제",
+      "현장감",
+      "콘서트",
+      "체험",
+      "활동",
+      "여행",
+      "취미",
+      "자기계발",
+      "action",
+      "thriller",
+      "music",
+      "adventure",
+      "행사/축제",
+      "음악/콘서트",
+      "교육/체험"
+    ],
+    "TOGETHER": [
+      "함께보기",
+      "공감",
+      "따뜻함",
+      "가족",
+      "친구와",
+      "에세이",
+      "요리",
+      "살림",
+      "건강",
+      "family",
+      "animation",
+      "comedy",
+      "romance",
+      "아동/가족",
+      "전시",
+      "행사/축제"
+    ]
+  },
+  "calculation_policy": {
+    "score_init": {
+      "TREND": 0,
+      "MONGLE": 0,
+      "WORLD": 0,
+      "KNOWLEDGE": 0,
+      "FESTIVAL": 0,
+      "TOGETHER": 0
+    },
+    "result_rule": "questions.options의 type_scores를 합산하고, 가장 높은 점수의 result_code를 최종 결과로 선택한다.",
+    "axis_rule": "questions.options의 axis_scores를 축별 좌우 점수로 합산하고, 좌우 합계를 100으로 환산한다.",
+    "tie_breaker": [
+      "대표 문항 점수가 높은 유형을 우선한다.",
+      "그래도 동점이면 TREND, MONGLE, WORLD, KNOWLEDGE, FESTIVAL, TOGETHER 순서로 선택한다."
+    ],
+    "representative_questions": {
+      "TREND": [
+        1,
+        7,
+        8,
+        9,
+        13
+      ],
+      "MONGLE": [
+        1,
+        2,
+        3,
+        4,
+        10,
+        11
+      ],
+      "WORLD": [
+        3,
+        7,
+        12,
+        13
+      ],
+      "KNOWLEDGE": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        10,
+        13
+      ],
+      "FESTIVAL": [
+        4,
+        6,
+        8,
+        11,
+        13
+      ],
+      "TOGETHER": [
+        3,
+        5,
+        9,
+        11,
+        12
+      ]
+    }
+  },
+  "db_mapping": {
+    "TASTE_RESULTS": {
+      "result_type": "result_types.code 저장",
+      "result_summary": "result_types.summary 저장",
+      "score_data": "type_scores와 axis_scores를 함께 JSON으로 저장"
+    },
+    "USER_KEYWORDS": {
+      "source_type": "TEST",
+      "keyword_source": "result_keyword_map에서 최종 result_code에 해당하는 키워드 저장"
+    }
+  },
+  "score_rules": [
+    {
+      "question_id": 1,
+      "answer_value": true,
+      "result_code": "TREND",
+      "score": 2
+    },
+    {
+      "question_id": 1,
+      "answer_value": false,
+      "result_code": "MONGLE",
+      "score": 1
+    },
+    {
+      "question_id": 2,
+      "answer_value": true,
+      "result_code": "MONGLE",
+      "score": 2
+    },
+    {
+      "question_id": 2,
+      "answer_value": false,
+      "result_code": "KNOWLEDGE",
+      "score": 2
+    },
+    {
+      "question_id": 3,
+      "answer_value": true,
+      "result_code": "WORLD",
+      "score": 2
+    },
+    {
+      "question_id": 3,
+      "answer_value": false,
+      "result_code": "TOGETHER",
+      "score": 1
+    },
+    {
+      "question_id": 4,
+      "answer_value": true,
+      "result_code": "FESTIVAL",
+      "score": 2
+    },
+    {
+      "question_id": 4,
+      "answer_value": false,
+      "result_code": "KNOWLEDGE",
+      "score": 1
+    },
+    {
+      "question_id": 5,
+      "answer_value": true,
+      "result_code": "TOGETHER",
+      "score": 2
+    },
+    {
+      "question_id": 5,
+      "answer_value": false,
+      "result_code": "KNOWLEDGE",
+      "score": 1
+    },
+    {
+      "question_id": 6,
+      "answer_value": true,
+      "result_code": "FESTIVAL",
+      "score": 2
+    },
+    {
+      "question_id": 6,
+      "answer_value": false,
+      "result_code": "TREND",
+      "score": 1
+    },
+    {
+      "question_id": 7,
+      "answer_value": true,
+      "result_code": "WORLD",
+      "score": 2
+    },
+    {
+      "question_id": 7,
+      "answer_value": false,
+      "result_code": "TREND",
+      "score": 2
+    },
+    {
+      "question_id": 8,
+      "answer_value": true,
+      "result_code": "TREND",
+      "score": 1
+    },
+    {
+      "question_id": 8,
+      "answer_value": false,
+      "result_code": "KNOWLEDGE",
+      "score": 2
+    },
+    {
+      "question_id": 9,
+      "answer_value": true,
+      "result_code": "TOGETHER",
+      "score": 2
+    },
+    {
+      "question_id": 9,
+      "answer_value": false,
+      "result_code": "KNOWLEDGE",
+      "score": 1
+    },
+    {
+      "question_id": 10,
+      "answer_value": true,
+      "result_code": "KNOWLEDGE",
+      "score": 2
+    },
+    {
+      "question_id": 10,
+      "answer_value": false,
+      "result_code": "MONGLE",
+      "score": 2
+    },
+    {
+      "question_id": 11,
+      "answer_value": true,
+      "result_code": "FESTIVAL",
+      "score": 2
+    },
+    {
+      "question_id": 11,
+      "answer_value": false,
+      "result_code": "TOGETHER",
+      "score": 1
+    },
+    {
+      "question_id": 12,
+      "answer_value": true,
+      "result_code": "WORLD",
+      "score": 2
+    },
+    {
+      "question_id": 12,
+      "answer_value": false,
+      "result_code": "TOGETHER",
+      "score": 2
+    },
+    {
+      "question_id": 13,
+      "answer_value": true,
+      "result_code": "TREND",
+      "score": 1
+    },
+    {
+      "question_id": 13,
+      "answer_value": false,
+      "result_code": "WORLD",
+      "score": 1
+    }
+  ],
+  "recommendation_db_mapping": {
+    "TREND": {
+      "movie_genre_ids": [
+        35,
+        10749,
+        10751,
+        16
+      ],
+      "book_category_ids": [
+        55889,
+        517,
+        2551
+      ],
+      "culture_sub_categories": [
+        "행사/축제",
+        "아동/가족",
+        "전시"
+      ]
+    },
+    "MONGLE": {
+      "movie_genre_ids": [
+        18,
+        10749,
+        10402
+      ],
+      "book_category_ids": [
+        1,
+        55889
+      ],
+      "culture_sub_categories": [
+        "연극",
+        "전시",
+        "음악/콘서트"
+      ]
+    },
+    "WORLD": {
+      "movie_genre_ids": [
+        14,
+        878,
+        12,
+        16
+      ],
+      "book_category_ids": [
+        2551
+      ],
+      "culture_sub_categories": [
+        "뮤지컬/오페라",
+        "전시",
+        "교육/체험"
+      ]
+    },
+    "KNOWLEDGE": {
+      "movie_genre_ids": [
+        99,
+        36,
+        9648,
+        18
+      ],
+      "book_category_ids": [
+        656,
+        74,
+        798,
+        987
+      ],
+      "culture_sub_categories": [
+        "전시",
+        "교육/체험",
+        "국악"
+      ]
+    },
+    "FESTIVAL": {
+      "movie_genre_ids": [
+        28,
+        53,
+        10402,
+        12
+      ],
+      "book_category_ids": [
+        1196,
+        55890,
+        336
+      ],
+      "culture_sub_categories": [
+        "행사/축제",
+        "음악/콘서트",
+        "교육/체험"
+      ]
+    },
+    "TOGETHER": {
+      "movie_genre_ids": [
+        10751,
+        16,
+        35,
+        10749
+      ],
+      "book_category_ids": [
+        55889,
+        1230,
+        55890
+      ],
+      "culture_sub_categories": [
+        "아동/가족",
+        "전시",
+        "행사/축제"
+      ]
+    }
+  }
+}

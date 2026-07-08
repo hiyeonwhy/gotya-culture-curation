@@ -141,7 +141,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -255,6 +254,7 @@ web_modules/
 .yarn-integrity
 
 # dotenv environment variable files
+.env
 .env.development.local
 .env.test.local
 .env.production.local
@@ -479,3 +479,11 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/node,vue,cypressio,python,django,windows,visualstudiocode,react
+
+# Project local assets
+/UI 가이드 사진/
+/가챠 화면 ui 예시/
+/api_extract/
+/@유림/
+/@참고자료/
+/@희연/

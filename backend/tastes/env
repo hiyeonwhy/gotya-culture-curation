@@ -1,0 +1,5 @@
+GMS_API_URL="https://gms.ssafy.io/gmsapi/api.openai.com/v1/chat/completions"
+GMS_API_KEY="S15P02CA05-f37dd1ba-3117-45d8-8b3a-353340c79c7c"
+GMS_MODEL=gpt-5.4
+GMS_TIMEOUT_SECONDS=15
+GMS_CANDIDATES_PER_TYPE=30

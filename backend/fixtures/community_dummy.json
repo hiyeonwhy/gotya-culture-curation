@@ -1,0 +1,230 @@
+[
+  {
+    "model": "accounts.user",
+    "pk": 9001,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$YemFbbC5tWRfbqLBXT6QMA$qwyMg9L4e3+OvMKlGUJxulW6b7Wl9SJzTwYE6tqid5M=",
+      "last_login": null,
+      "is_superuser": false,
+      "login_id": "ssafy",
+      "email": "ssafy@example.com",
+      "nickname": "ssafy",
+      "profile_image": "",
+      "is_active": true,
+      "is_staff": false,
+      "created_at": "2026-06-26T09:00:00+09:00",
+      "updated_at": "2026-06-26T09:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "accounts.user",
+    "pk": 9002,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$WHwyF3aXEkEOpni0CuH8u0$VNHMhhGmJyLeG4jFE4K1IvL40LGub4WGzhWCaIgBUvI=",
+      "last_login": null,
+      "is_superuser": false,
+      "login_id": "moviefan",
+      "email": "moviefan@example.com",
+      "nickname": "영화탐험가",
+      "profile_image": "",
+      "is_active": true,
+      "is_staff": false,
+      "created_at": "2026-06-26T09:05:00+09:00",
+      "updated_at": "2026-06-26T09:05:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "accounts.user",
+    "pk": 9003,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$WHwyF3aXEkEOpni0CuH8u0$VNHMhhGmJyLeG4jFE4K1IvL40LGub4WGzhWCaIgBUvI=",
+      "last_login": null,
+      "is_superuser": false,
+      "login_id": "booklover",
+      "email": "booklover@example.com",
+      "nickname": "책방단골",
+      "profile_image": "",
+      "is_active": true,
+      "is_staff": false,
+      "created_at": "2026-06-26T09:10:00+09:00",
+      "updated_at": "2026-06-26T09:10:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "accounts.user",
+    "pk": 9004,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$WHwyF3aXEkEOpni0CuH8u0$VNHMhhGmJyLeG4jFE4K1IvL40LGub4WGzhWCaIgBUvI=",
+      "last_login": null,
+      "is_superuser": false,
+      "login_id": "culturegoer",
+      "email": "culturegoer@example.com",
+      "nickname": "전시산책러",
+      "profile_image": "",
+      "is_active": true,
+      "is_staff": false,
+      "created_at": "2026-06-26T09:15:00+09:00",
+      "updated_at": "2026-06-26T09:15:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "accounts.user",
+    "pk": 9005,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$WHwyF3aXEkEOpni0CuH8u0$VNHMhhGmJyLeG4jFE4K1IvL40LGub4WGzhWCaIgBUvI=",
+      "last_login": null,
+      "is_superuser": false,
+      "login_id": "gotyaguest",
+      "email": "gotyaguest@example.com",
+      "nickname": "취향수집가",
+      "profile_image": "",
+      "is_active": true,
+      "is_staff": false,
+      "created_at": "2026-06-26T09:20:00+09:00",
+      "updated_at": "2026-06-26T09:20:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 9101,
+    "fields": {
+      "user": 9002,
+      "category": "review",
+      "title": "주말에 보기 좋은 영화 추천 공유해요",
+      "content": "이번 주말에는 잔잔한 드라마와 미스터리 영화를 번갈아 봤어요. GotYA 추천에서 고른 작품들이 생각보다 취향에 잘 맞아서 다른 분들 추천도 궁금합니다.",
+      "view_count": 37,
+      "created_at": "2026-06-26T10:00:00+09:00",
+      "updated_at": "2026-06-26T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 9102,
+    "fields": {
+      "user": 9003,
+      "category": "recommendation",
+      "title": "출퇴근길에 읽기 좋은 짧은 책 있나요?",
+      "content": "요즘 이동 시간이 길어서 한 챕터씩 읽기 좋은 책을 찾고 있어요. 에세이, 자기계발, 인문 분야 모두 괜찮습니다.",
+      "view_count": 24,
+      "created_at": "2026-06-26T10:20:00+09:00",
+      "updated_at": "2026-06-26T10:20:00+09:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 9103,
+    "fields": {
+      "user": 9004,
+      "category": "free",
+      "title": "이번 달 전시 다녀온 분 후기 궁금해요",
+      "content": "문화 라운지에서 본 전시 몇 개를 저장해뒀는데 아직 못 갔어요. 사진 찍기 좋은 전시나 혼자 보기 편한 전시가 있으면 알려주세요.",
+      "view_count": 45,
+      "created_at": "2026-06-26T10:40:00+09:00",
+      "updated_at": "2026-06-26T10:40:00+09:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 9104,
+    "fields": {
+      "user": 9005,
+      "category": "question",
+      "title": "취향 테스트 결과가 바뀌면 추천도 바로 바뀌나요?",
+      "content": "테스트를 다시 해보니 이전과 다른 유형이 나왔습니다. 홈 화면과 라운지의 추천 콘텐츠도 새 결과 기준으로 바뀌는지 궁금해요.",
+      "view_count": 18,
+      "created_at": "2026-06-26T11:00:00+09:00",
+      "updated_at": "2026-06-26T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 9105,
+    "fields": {
+      "user": 9001,
+      "category": "recommendation",
+      "title": "혼자 쉬는 날 문화 코스 추천받아요",
+      "content": "오전에 책 읽고 오후에 전시나 공연을 보고 싶은데, 하루 코스로 묶기 좋은 콘텐츠가 있으면 추천해주세요.",
+      "view_count": 31,
+      "created_at": "2026-06-26T11:20:00+09:00",
+      "updated_at": "2026-06-26T11:20:00+09:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 9106,
+    "fields": {
+      "user": 9002,
+      "category": "free",
+      "title": "다시 보지 않기 기능 써보니까 편하네요",
+      "content": "추천 목록에서 관심 없는 콘텐츠를 숨길 수 있어서 목록이 훨씬 보기 좋아졌어요. 비슷한 기능이 더 늘어나면 좋겠습니다.",
+      "view_count": 29,
+      "created_at": "2026-06-26T11:40:00+09:00",
+      "updated_at": "2026-06-26T11:40:00+09:00"
+    }
+  },
+  {
+    "model": "community.comment",
+    "pk": 9201,
+    "fields": {
+      "post": 9101,
+      "user": 9003,
+      "content": "저도 주말에는 가벼운 코미디나 드라마를 많이 봐요. 추천 목록 참고해볼게요.",
+      "created_at": "2026-06-26T12:00:00+09:00",
+      "updated_at": "2026-06-26T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "community.comment",
+    "pk": 9202,
+    "fields": {
+      "post": 9102,
+      "user": 9005,
+      "content": "짧은 에세이류가 이동 중에 읽기 좋더라고요. 도서 라운지에서 에세이 카테고리 한번 봐보세요.",
+      "created_at": "2026-06-26T12:05:00+09:00",
+      "updated_at": "2026-06-26T12:05:00+09:00"
+    }
+  },
+  {
+    "model": "community.comment",
+    "pk": 9203,
+    "fields": {
+      "post": 9103,
+      "user": 9001,
+      "content": "문화지도에서 지역 먼저 고르고 전시로 좁히면 찾기 편했어요.",
+      "created_at": "2026-06-26T12:10:00+09:00",
+      "updated_at": "2026-06-26T12:10:00+09:00"
+    }
+  },
+  {
+    "model": "community.comment",
+    "pk": 9204,
+    "fields": {
+      "post": 9104,
+      "user": 9002,
+      "content": "제 경우에는 테스트 결과 기준으로 홈 추천이 바뀌어서 다시 둘러보는 재미가 있었어요.",
+      "created_at": "2026-06-26T12:15:00+09:00",
+      "updated_at": "2026-06-26T12:15:00+09:00"
+    }
+  },
+  {
+    "model": "community.comment",
+    "pk": 9205,
+    "fields": {
+      "post": 9105,
+      "user": 9004,
+      "content": "전시 보고 근처 서점 들르는 코스 좋습니다. 지역을 먼저 정하면 고르기 쉬워요.",
+      "created_at": "2026-06-26T12:20:00+09:00",
+      "updated_at": "2026-06-26T12:20:00+09:00"
+    }
+  }
+]
