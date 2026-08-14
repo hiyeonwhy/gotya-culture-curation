@@ -256,38 +256,6 @@ gotya-culture-curation/
 
 ---
 
-## 🤝 기여 방법 (Contributing)
-
-기여는 언제나 환영합니다! 아래 절차를 따라주세요.
-
-1. 이 저장소를 **Fork** 합니다.
-2. 기능 브랜치를 생성합니다. — `git checkout -b feat/amazing-feature`
-3. 변경 사항을 커밋합니다. — `git commit -m "feat: 멋진 기능 추가"`
-4. 브랜치에 푸시합니다. — `git push origin feat/amazing-feature`
-5. **Pull Request**를 생성합니다.
-
-### 커밋 컨벤션
-
-| Prefix | 용도 |
-| --- | --- |
-| `feat` | 새로운 기능 추가 |
-| `fix` | 버그 수정 |
-| `docs` | 문서 수정 |
-| `style` | 코드 포맷팅 (기능 변경 없음) |
-| `refactor` | 코드 리팩터링 |
-| `chore` | 빌드·설정 등 기타 작업 |
-
----
-
-## 📄 라이선스 (License)
-
-현재 저장소에는 별도의 `LICENSE` 파일이 없습니다. 배포 계획에 맞춰 팀에서 라이선스를 정한 뒤 루트에 `LICENSE` 파일을 추가해 주세요.
-
-> ⚠️ 단, `frontend/src/assets/fonts/`의 폰트(예: [Mulmaru-LICENSE.txt](frontend/src/assets/fonts/Mulmaru-LICENSE.txt))와
-> 알라딘·TourAPI·Kakao 등 외부 API로 수집한 데이터는 각 제공처의 라이선스 및 이용약관을 따릅니다.
-
----
-
 <div align="center">
 
 **GotYA** — 오늘 뭐 하지? 🎰
